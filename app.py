@@ -1,7 +1,12 @@
+import os
 import streamlit as st
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from pypdf import PdfReader
+
+load_dotenv()
+
 
 # 1. Structural Elite Page Config
 st.set_page_config(
@@ -44,7 +49,8 @@ else:
 st.sidebar.markdown("<hr style='border-color: #1E293B;'>", unsafe_allow_html=True)
 
 # 3. Connection pipeline setup
-client = genai.Client(api_key='AQ.Ab8RN6KfOIXqm2H8VtlDybJIn6mcNxEcYpTCmPAgRGhWX-PSVA')
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
 
 # 4. Interface Grid Elements
 col1, col2 = st.columns(2)
