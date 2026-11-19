@@ -52,6 +52,7 @@ st.sidebar.markdown("<hr style='border-color: #1E293B;'>", unsafe_allow_html=Tru
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
+
 # 4. Interface Grid Elements
 col1, col2 = st.columns(2)
 with col1:
