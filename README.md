@@ -17,3 +17,11 @@ This repository contains two production-ready Generative AI applications built w
 ### 2. 🎯 Enterprise AI Profile Auditor & Match Engine (`app.py`)
 - **Overview:** Evaluates candidate resumes against target job roles in real time using high-speed token streaming and structured system prompts.
 - **Tech Stack:** Python, Google GenAI Streaming SDK, `pypdf`, Streamlit Custom Dark UI.
+
+---
+
+## ⚙️ How to Run Locally
+1. Install dependencies: `pip install -r requirements.txt`
+2. Add your `GEMINI_API_KEY` inside a `.env` file.
+3. Run the RAG App: `python -m streamlit run rag_app.py`
+4. Run the Profile Auditor: `python -m streamlit run app.py`
