@@ -17,3 +17,4 @@ This repository contains two production-ready Generative AI applications built w
 2. Add your `GEMINI_API_KEY` inside a `.env` file.
 3. Run the RAG App: `python -m streamlit run rag_app.py`
 https://my-first-ai-app-4q5htezjqvacbgxjbtmxac.streamlit.app/
+https://my-first-ai-app-cdpv2appcxqck7kftflw9kk.streamlit.app/
