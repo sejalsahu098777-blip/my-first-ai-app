@@ -3,8 +3,8 @@
 This repository contains two production-ready Generative AI applications built with **Python, Streamlit, ChromaDB, and Google Gemini SDK**.
 
 ## 🌐 Live Interactive Apps
-- **🧠 Enterprise RAG Document Intelligence System:** [Click Here to Launch Live App](yahan_apna_rag_app_ka_streamlit_link_paste_karein)
-- **🎯 Enterprise AI Profile Auditor & Match Engine:** [Click Here to Launch Live App](yahan_apna_app_py_ka_streamlit_link_paste_karein)
+- **🧠 Enterprise RAG Document Intelligence System:** [Click Here to Launch Live App]((https://my-first-ai-app-4q5htezjqvacbgxjbtmxac.streamlit.app/)))
+- **🎯 Enterprise AI Profile Auditor & Match Engine:** [Click Here to Launch Live App]([https://my-first-ai-app-cdpv2appcxqck7kftflw9kk.streamlit.app/])
 
 ---
 
